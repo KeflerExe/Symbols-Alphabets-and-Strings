@@ -27,13 +27,13 @@ hola
 
 Theres 5 operations implemented:
 
-**Length **: write to the output file the length of each input string. That is
+**1. Length**: write to the output file the length of each input string. That is
 the output file associated to the input of the previous example would be the following:
 5
 7
 4
 
-**Inverse**: write in the output file the inverse of each input string. In
+**2. Inverse**: write in the output file the inverse of each input string. In
 in this case, the output will be as follows:
 
 babba
@@ -42,7 +42,7 @@ babba
 
 aloh
 
-**Prefixes**: write to the output file the set of strings that are prefixes of the corresponding input string.
+**3. Prefixes**: write to the output file the set of strings that are prefixes of the corresponding input string.
 For the example input, the output would look like this:
 
 & a ab abb abba abba abbab
@@ -51,7 +51,7 @@ For the example input, the output would look like this:
 
 & h ho hol hola
 
-**Suffixes**: write to the output file the set of strings that are suffixes of each corresponding input string.
+**4. Suffixes**: write to the output file the set of strings that are suffixes of each corresponding input string.
 For the example input, the output would be similar to the following:
 
 & b ab bab bab bbab abbab abbab
@@ -60,7 +60,7 @@ For the example input, the output would be similar to the following:
 
 & a la ola hola
 
-**Substrings**: write to the output file the set of substrings for each input string.
+**5. Substrings**: write to the output file the set of substrings for each input string.
 input string.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
