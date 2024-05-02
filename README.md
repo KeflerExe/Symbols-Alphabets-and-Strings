@@ -6,8 +6,7 @@
 ## About The Project
 
 
-Given an input file with a string specification together with their respective alphabets, performs a set of
-the specification of strings together with their respective alphabets, performs a set of basic checks on them.
+Given an input file with a string specification together with their respective alphabets performs a set of basic checks on them.
 
 The program will receive on the command line the name of the input file, the name of the output file and an operation code:
 
