@@ -61,7 +61,6 @@ For the example input, the output would be similar to the following:
 & a la ola hola
 
 **5. Substrings**: write to the output file the set of substrings for each input string.
-input string.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,14 +92,7 @@ No installation required :)
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Download the files
-2. Compile with g++
-```
-g++ bigint_main.cc bigint_func.cc
-```
-4. All ready!
-
-(You can find instructions about the arguments of the program inside the bigint_func.cc file.)
+1. Makefile is included, use it to compile the files and ready!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
