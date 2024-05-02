@@ -29,8 +29,11 @@ Theres 5 operations implemented:
 **1. Length**: write to the output file the length of each input string. That is
 the output file associated to the input of the previous example would be the following:
 5
+
 7
+
 4
+
 
 **2. Inverse**: write in the output file the inverse of each input string. In
 in this case, the output will be as follows:
