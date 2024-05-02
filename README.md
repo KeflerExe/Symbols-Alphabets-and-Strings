@@ -20,7 +20,9 @@ it could be the case that the alphabet is not specified. In such cases the alpha
 Take the following input file as example for the operations:
 
 a b abbab
+
 0 1 2 3 4 5 6 7 8 9 6793836
+
 hola
 
 Theres 5 operations implemented:
