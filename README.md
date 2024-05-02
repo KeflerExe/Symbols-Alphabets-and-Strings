@@ -33,19 +33,31 @@ the output file associated to the input of the previous example would be the fol
 
 **Inverse**: write in the output file the inverse of each input string. In
 in this case, the output will be as follows:
+
 babba
+
 6383976
+
 aloh
+
 **Prefixes**: write to the output file the set of strings that are prefixes of the corresponding input string.
 For the example input, the output would look like this:
+
 & a ab abb abba abba abbab
+
 & 6 67 679 6793 67938 679383 6793836
+
 & h ho hol hola
+
 **Suffixes**: write to the output file the set of strings that are suffixes of each corresponding input string.
 For the example input, the output would be similar to the following:
+
 & b ab bab bab bbab abbab abbab
+
 & 6 36 836 3836 93836 793836 6793836
+
 & a la ola hola
+
 **Substrings**: write to the output file the set of substrings for each input string.
 input string.
 
