@@ -28,6 +28,7 @@ Theres 5 operations implemented:
 
 **1. Length**: write to the output file the length of each input string. That is
 the output file associated to the input of the previous example would be the following:
+
 5
 
 7
