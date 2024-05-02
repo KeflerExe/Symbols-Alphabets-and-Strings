@@ -6,18 +6,48 @@
 ## About The Project
 
 
-In different fields of science there is a need to work with very big, or very small  numerical values.
-With this program im implementing data types in C++ to handle 
-very large numeric values, exceeding the representation range of the defined data types
-in standard language. To do this, the generic data type BigInt<size_t Base> is defined
-which represents integers using positional notation. In this numbering system, the value of a digit depends on its relative position and the base, which determines the number of
-digits needed to write any number. By default, the decimal system will be used
-(base 10), although it is also common to use the binary (base 2), octal (base 8) and hexadecimal (base 16).
+Given an input file with a string specification together with their respective alphabets, performs a set of
+the specification of strings together with their respective alphabets, performs a set of basic checks on them.
 
-The representation range of the BigInt<size_t Base> data type encompasses any integer, positive or negative, that can be stored in machine memory.
-That is, the maximum range is limited by the maximum size that the system allows for the data structure where the digits are stored.
+The program will receive on the command line the name of the input file, the name of the output file and an operation code:
 
-Using the BigInt<Base> data type, the program implements a calculator for expressions in inverse Polish notation.
+```
+./p01_strings filein .txt fileout.txt opcode
+```
+The input file will have in each line the specification of the symbols defining the alphabet (separated by spaces) followed by the string. Also note that
+it could be the case that the alphabet is not specified. In such cases the alphabet will be obtained automatically from the symbols in the string itself.
+
+Take the following input file as example for the operations:
+
+a b abbab
+0 1 2 3 4 5 6 7 8 9 6793836
+hola
+
+Theres 5 operations implemented:
+
+**Length **: write to the output file the length of each input string. That is
+the output file associated to the input of the previous example would be the following:
+5
+7
+4
+
+**Inverse**: write in the output file the inverse of each input string. In
+in this case, the output will be as follows:
+babba
+6383976
+aloh
+**Prefixes**: write to the output file the set of strings that are prefixes of the corresponding input string.
+For the example input, the output would look like this:
+& a ab abb abba abba abbab
+& 6 67 679 6793 67938 679383 6793836
+& h ho hol hola
+**Suffixes**: write to the output file the set of strings that are suffixes of each corresponding input string.
+For the example input, the output would be similar to the following:
+& b ab bab bab bbab abbab abbab
+& 6 36 836 3836 93836 793836 6793836
+& a la ola hola
+**Substrings**: write to the output file the set of substrings for each input string.
+input string.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
